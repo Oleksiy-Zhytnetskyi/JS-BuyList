@@ -1,17 +1,21 @@
-.product-item {
-	background-color: gray;
-	display: inline-block;
-	height: 25px;
-	padding: 5px;
-	border-radius: 5px;
+body {
+	user-select: none;
 }
 
-.amount {
-	background-color: yellow;
-	border-radius: 10px;
+section.left, section.right {
+	width: 70%;
+	float: left;
 	
-	display: inline-block;
-	height: 20px;
-	width: 20px;
+	background-color: bisque;
+	font-size: 16px;
 	text-align: center;
+	height: 400px;
+	line-height: 400px;
+	border: 1px solid lightgrey;
+	border-radius: 12px;
+}
+
+section.right {
+	width: 25%;
+	float: right;
 }
